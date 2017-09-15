@@ -1,4 +1,6 @@
-
+* {
+border: 1px solid;
+}
 
 @media (max-device-width: 767px){
 
@@ -18,5 +20,15 @@
 
 @media (min-device-width: 1025px) {
 /*---------Browser---------*/
+
+body{
+  height: 1200px;
+  width: 1200px;
+  background: linear-gradient(to bottom, #1F4E79 0%, #1F4E79 50%, white 50%, white 100%);
+}
+
+
+
+
 
 }
