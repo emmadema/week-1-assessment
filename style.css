@@ -157,7 +157,8 @@ body{
 	margin-left: 50px;
 	margin-right: 100px;
 	margin-top: 0px;
-	background-image: url("images/frame.png/");
+	background-image: url("images/frame.png");
+	background-width: 600px;
 }
 
 .p{	
@@ -169,7 +170,6 @@ body{
 	width: 500px;
 	height: 200px;
 	position: absolute;
-	background: white;
 	display: inline-block;
 	width: 100%
 	
