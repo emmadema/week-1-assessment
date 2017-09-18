@@ -1,6 +1,6 @@
-*{
+/**{
 border: 1px solid;
-}
+}*/
 
 @media (max-device-width: 767px){
 
@@ -122,10 +122,13 @@ body{
 	float: right;
 	clear: both;
 	display: inline-block;
-	border-radius: 5px;
+	border-radius: 1px;
 	padding: 5px;
 	color: #e8edf1;
 	font-size: 15px;
+	margin-top: 180px;
+	margin-left: 300px;
+	border: none;
 
 }
 
@@ -171,15 +174,22 @@ body{
 }
 
 #apple {
-	float: right;
+	
 	display: inline-block;
-	clear: both;
+	
+	margin-top: 300px;
+	margin-left: 500px;
+	background: none;
+	border: none;
 }
 
 #google{
-	float: right;
+
 	display: inline-block;
-	clear: both;
+	margin-top: 300px;
+	margin-left: 10px;
+	background: none;
+	border: none;
 
 }
 
@@ -190,6 +200,7 @@ body{
 #foot{
 	text-decoration: none;
 }
+
 footer{
 	width: 100%;
 	margin: 0 auto;
@@ -197,7 +208,7 @@ footer{
 	bottom: 0;
 	left: 50%;
 	margin-left: -400px;
-	width: 900px;
+	width: 1000px;
 	height: 100px;
 	text-decoration: none;
 }
