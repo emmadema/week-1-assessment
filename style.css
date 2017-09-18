@@ -94,9 +94,8 @@ body{
 body{
   	height: 1200px;
   	width: 1200px;
-  background: -webkit-linear-gradient(#1F4E79 0%, #1F4E79 40%, white 40%, white 100%);
-  background: -o-linear-gradient(#1F4E79 0%, #1F4E79 40%, white 40%, white 100%);
-  background: linear-gradient(#1F4E79 0%, #1F4E79 40%, white 40%, white 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #logo{
@@ -125,6 +124,7 @@ body{
 
 #head {
 	float: right;
+	position: relative;
 	
 
 }
