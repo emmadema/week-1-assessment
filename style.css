@@ -2,6 +2,11 @@
 border: 1px solid transparent;
 }
 
+/*used for styling to see where layout was left because when removed it ruins code*/
+
+
+
+/* this currently does nothing but would style for moblie*/
 @media (max-device-width: 767px){
 
 /*---------Mobile----------*/
@@ -47,6 +52,8 @@ body{
 	
 }
 }
+
+/*this currently does nothing but would style if for an ipad*/
 
 @media (min-device-width: 768px) and (max-device-width: 1024px) {
 /*---------Ipad------------*/
@@ -97,6 +104,11 @@ body{
 @media (min-device-width: 1025px) {
 /*---------Browser---------*/
 
+
+/*Used for all colors http://www.color-hex.com/color/6283a1*/
+
+/*overall style of the body of the eintire document*/
+
 body{
   	width: 100%;
  	height:200px;
@@ -106,6 +118,8 @@ body{
  	background-attachment:fixed;
  	font-family: 'Roboto', sans-serif;
 }
+
+/*style for the instagram logo*/
 
 #logo{
 	float: right;
@@ -117,27 +131,33 @@ body{
 
 }
 
+/*style for the login button minus the house image*/
+
 #logIn{
-	background: #6283a1; 
+	background: #6283a1; /*meduim blue background*/
 	position: absolute;
 	display: inline-block;
 	border-radius: 1px;
 	padding: 7px;
-	color: #e8edf1;
+	color: #e8edf1; /* font*/
 	font-size: 15px;
 	margin-top: 120px;
 	margin-left: 900px;
 	border: none;
 	width: 100px;
 	clear: both;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /*background shadow for loading box*/
 	border-radius: 1px;
 
 }
 
+/*stye for the house image on the login button*/
+
 #home{
 	padding: 0 5px 0 0;
 }
+
+/*style for the pic of the two phones*/
 
 .phones {
 	float: left;
@@ -147,34 +167,44 @@ body{
 
 }
 
+/*style for the header text only*/
+
 #head {
-	color: #0f273c;
+	color: #0f273c; /*dark blue*/
 	clear: both;
 	height: 80px;
 	width: 400px;
-	display: inline-block;
+	display: block;
 	width: 100%;
 	margin-left: 50px;
 	margin-right: 100px;
 	margin-top: 0px;
-	background-image: url("images/frame.png");
-	background-width: 600px;
+	background-image: url("images/frame.png"); /*white fade image*/
+	background-width: 100%;
+	background-repeat: none; /*image only shows once*/
+	padding: 20px 50px 150px 20px;
+	border-radius: 5px;
+	margin-bottom: 0px;
 }
 
+/*style for the parage below the header text*/
+
 .p{	
-	margin-left: 50px;
+	margin-left: 80px;
 	margin-right: 100px;
-	margin-top: 0px
-	margin-bottom: 600px;
+	margin-top: 0px;
+	margin-bottom: 1000px;
 	text-align: left;
 	width: 500px;
 	height: 200px;
-	position: absolute;
-	display: inline-block;
+	position: relative;
+	display: block;
 	width: 100%
-	
-
+	clear: both;
+	padding-bottom: 100px;
 }
+
+/*style for the white fade image*/
 
 .white-fade{
 	width: 400px;
@@ -184,6 +214,8 @@ body{
 	margin-top: 200px;
 
 	}
+
+/*apple button*/
 
 #apple {
 	
@@ -196,6 +228,8 @@ body{
 
 }
 
+/*google android button*/
+
 #google{
 
 	display: inline-block;
@@ -206,22 +240,29 @@ body{
 	border: none;
 
 }
+
+/* this is the links trying to remove the lines from under them and not have them change color when clicked*/
 .noDec, a:link, a:visited {
 	text-decoration: none;
-	color: #6283a1
+	color: #6283a1 /*light blue*/
 }
-
+/*trying to remove the underlines from links*/
 .underline {
 	text-decoration: none;
 }
 
+
+/*styling of the overall footer aka the link and the @* I was also trying more things to remove the underline/
 #foot{
 	text-decoration: none;
 }
 
+/*this is for the instagram @ only since it needed to be a diffrent color*/
 .other{
 	color: grey;
 }
+
+/*style for the eintire footer*/
 
 footer{
 	width: 100%;
@@ -233,8 +274,10 @@ footer{
 	width: 1000px;
 	height: 100px;
 	text-decoration: none;
-	color: #d2dbe4;
+	color: #d2dbe4;/* light blue gray*/
 }
+
+/*style for whole undorderele list with the links and the @*/
 
 ul{
 	list-style: none;
@@ -244,13 +287,14 @@ ul{
 	text-decoration: none;
 }
 
+/*more specific styling of the list elements orginall I did not have @ in here whihc is why it is seprate*/
 li{
 	display: inline-block;
 	clear: both;
 	position: relative;
 	margin: 0 30px 0 0;
 	text-decoration: none;
-	color: #6283a1;
+	color: #6283a1; /*light blue*/
 
 
 }
