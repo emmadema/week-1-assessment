@@ -109,13 +109,10 @@ body{
 
 /*overall style of the body of the eintire document*/
 
-body{
+html, body{
   	width: 100%;
- 	height:200px;
-  	background-size: contain;
- 	background-position: top center;
+ 	background-color: : linear-gradient (#4b7193, #6283a1, white);
  	background-repeat:no-repeat;
- 	background-attachment:fixed;
  	font-family: 'Roboto', sans-serif;
 }
 
@@ -190,16 +187,13 @@ body{
 /*style for the parage below the header text*/
 
 .p{	
-	margin-left: 80px;
-	margin-right: 100px;
-	margin-top: 0px;
-	margin-bottom: 1000px;
+	margin: auto;
 	text-align: left;
 	width: 500px;
 	height: 200px;
 	position: relative;
-	display: block;
-	width: 100%
+	display: inline-block;
+	width: 100%;
 	clear: both;
 	padding-bottom: 100px;
 }
@@ -212,6 +206,7 @@ body{
 	position: relative;
 	margin-left: 450px;
 	margin-top: 200px;
+	display: inline-block;
 
 	}
 
